@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Mood and Type Search",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Rating and Genre Search",
       "isDefault": false
     }
   ],
