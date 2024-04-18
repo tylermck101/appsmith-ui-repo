@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 780,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 690,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,22 +28,24 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_MediaByMood",
-              "name": "MediaByMood",
+              "id": "Page2_MediaByGenre",
+              "name": "MediaByGenre",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "MoodDropdown.selectedOptionValue"
+                "GenreSelect.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Page1_SelectByMediaType",
-              "name": "SelectByMediaType",
+              "id": "Page2_MediaByRating",
+              "name": "MediaByRating",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "MediaTypeDropdown.selectedOptionLabel"
+                "RatingsInput.text"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -52,7 +53,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -62,5 +63,5 @@
     "policies": []
   },
   "deleted": false,
-  "gitSyncId": "662053a483cdc11edec2cadf_662053a483cdc11edec2cae1"
+  "gitSyncId": "6621746c943bfb4fb7587681_66219635943bfb4fb75878bd"
 }

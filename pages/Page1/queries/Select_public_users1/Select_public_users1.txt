@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  public.users
+WHERE
+  "latitude" ilike '%{{MediaTypeDropdown.filterText}}%'
