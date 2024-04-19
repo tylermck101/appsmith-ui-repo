@@ -32,7 +32,7 @@
     "text": "{{appsmith.user.name}}'s journal enteries",
     "key": "qciw5x2wqs",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 59,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "2cjp1o5bzr",
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 10,
     "responsiveBehavior": "fill",
-    "originalTopRow": 21,
+    "originalTopRow": 15,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 31,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 25,
+    "originalBottomRow": 19,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
