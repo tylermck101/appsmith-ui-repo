@@ -1,5 +1,5 @@
 {
-  "user": appsmith.store.UserID,
+  "user": {{appsmith.store.UserID}},
   "journalID": 100,
   "favorite": {{JSONForm1.formData.favorite}},
   "log": {{JSONForm1.formData.review}},

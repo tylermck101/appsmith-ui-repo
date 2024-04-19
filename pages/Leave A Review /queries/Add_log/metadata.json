@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"user\": appsmith.store.UserID,\n  \"journalID\": 100,\n  \"favorite\": {{JSONForm1.formData.favorite}},\n  \"log\": {{JSONForm1.formData.review}},\n  \"title\": {{JSONForm1.formData.text}},\n\t\"mediaID\": {{JSONForm1.formData.mediaID}}\n}",
+      "body": "{\n  \"user\": {{appsmith.store.UserID}},\n  \"journalID\": 100,\n  \"favorite\": {{JSONForm1.formData.favorite}},\n  \"log\": {{JSONForm1.formData.review}},\n  \"title\": {{JSONForm1.formData.text}},\n\t\"mediaID\": {{JSONForm1.formData.mediaID}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -56,7 +56,8 @@
       "JSONForm1.formData.favorite",
       "JSONForm1.formData.mediaID",
       "JSONForm1.formData.review",
-      "JSONForm1.formData.text"
+      "JSONForm1.formData.text",
+      "appsmith.store.UserID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

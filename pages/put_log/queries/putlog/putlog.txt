@@ -1,0 +1,13 @@
+{
+  "userID": {{appsmith.store.UserID}},
+  "favorite": {{JSONForm1.formData.favorite}},
+  "review": {{JSONForm1.formData.review}},
+  "rating": {{JSONForm1.formData.rating}},
+	"mediaID": {{JSONForm1.formData.mediaID}}
+}
+ userID INT NOT NULL,
+   mediaID INT NOT NULL,
+   favorite boolean,
+   rating int,
+   review VARCHAR(2000),
+   logID int PRIMARY KEY,

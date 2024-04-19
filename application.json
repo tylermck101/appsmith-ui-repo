@@ -7,6 +7,14 @@
     {
       "id": "Leave A Review ",
       "isDefault": false
+    },
+    {
+      "id": "put_log",
+      "isDefault": false
+    },
+    {
+      "id": "delete_log",
+      "isDefault": false
     }
   ],
   "viewMode": false,

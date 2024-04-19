@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "View_All_Media",
+    "name": "_getlogCopy",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/media/2"
+        "url": "web:4000/m/log"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Leave A Review ",
+    "pageId": "delete_log",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -53,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T02:03:11Z"
+    "createdAt": "2024-04-19T11:59:45Z"
   },
-  "id": "Leave A Review _View_All_Media",
+  "id": "delete_log__getlogCopy",
   "deleted": false,
-  "gitSyncId": "662167a583cdc11edec2cafd_6621d0df83cdc11edec2cb0b"
+  "gitSyncId": "662167a583cdc11edec2cafd_66225cb1e0d8072e6cab271e"
 }
