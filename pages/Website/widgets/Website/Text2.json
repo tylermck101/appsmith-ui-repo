@@ -32,7 +32,7 @@
     "text": "Based on your recent media consumption, you really like {{RecentGenre.data}}! We recommend that you check out the following:",
     "key": "q38l7hk06e",
     "isDeprecated": false,
-    "rightColumn": 45,
+    "rightColumn": 60,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "322ehkztv7",

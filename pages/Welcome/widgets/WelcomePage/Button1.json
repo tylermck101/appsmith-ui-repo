@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 12,
     "widgetName": "Button1",
-    "onClick": "{{navigateTo('Website', {\n  // \"UserID\": \"1\",\n}, 'SAME_WINDOW').then(() => {\n  storeValue('UserID', '1');\n});}}",
+    "onClick": "{{navigateTo('Website', {\n  // \"UserID\": \"1\",\n}, 'SAME_WINDOW').then(() => {\n  storeValue('UserID', '1');\n  JSObject1.setColors();\n  // \"UserID\": \"1\",\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

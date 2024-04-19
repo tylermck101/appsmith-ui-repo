@@ -2,6 +2,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
     "widgetName": "Text5",
+    "dynamicPropertyPathList": [{"key": "textColor"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -25,11 +26,12 @@
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "textColor"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+    "text": "Hello {{appsmith.user.name}}",
     "key": "qciw5x2wqs",
     "isDeprecated": false,
     "rightColumn": 48,
@@ -39,7 +41,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "{{appsmith.store.TextColor}}",
     "version": 1,
     "parentId": "7t10fqtd26",
     "tags": [
