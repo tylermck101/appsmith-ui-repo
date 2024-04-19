@@ -60,7 +60,7 @@
       "MoodDropdownCopy.selectedOptionValue",
       "appsmith.store.UserID"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 650,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,6 +29,18 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Website_UserGoals",
+              "name": "UserGoals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.UserID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Website_GetLog",
               "name": "GetLog",
               "confirmBeforeExecute": false,
@@ -39,16 +51,6 @@
             {
               "id": "Website_RecentGenre",
               "name": "RecentGenre",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.UserID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Website_UserGoals",
-              "name": "UserGoals",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

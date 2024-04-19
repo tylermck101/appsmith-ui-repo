@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "",
-    "topRow": 10,
+    "topRow": 7,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": true,
@@ -34,14 +34,19 @@
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 17,
+    "bottomRow": 14,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 22,
     "parentColumnSpace": 12.859375,
-    "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
+    "dynamicTriggerPathList": [
+        {"key": "onFilterUpdate"},
+        {"key": "onOptionChange"},
+        {"key": "onDropdownClose"}
+    ],
     "labelPosition": "Top",
-    "sourceData": "[\n    { \"label\": \"Inspired\", \"value\": 1 },\n    { \"label\": \"Relaxed\", \"value\": 2 },\n    { \"label\": \"Sad\", \"value\": 3 }\n]\n",
+    "onDropdownClose": "",
+    "sourceData": "[\n    { \"label\": \"Inspired\", \"value\": 1 },\n    { \"label\": \"Angry\", \"value\": 2 },\n    { \"label\": \"Sad\", \"value\": 3 },\n\t\t{ \"label\": \"Funny\", \"value\": 4 },\n\t\t{ \"label\": \"Crazy\", \"value\": 5 },\n\t\t{ \"label\": \"Calm\", \"value\": 6 },\n\t\t    { \"label\": \"Happy\", \"value\": 7 },\n    { \"label\": \"Surprised\", \"value\": 8 },\n    { \"label\": \"Empty\", \"value\": 9 },\n\t\t    { \"label\": \"Spontaneous\", \"value\": 10 },\n    { \"label\": \"Excited\", \"value\": 11 },\n\t\t    { \"label\": \"Chill\", \"value\": 12 }\n]\n",
     "key": "jnh772l6xj",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -60,5 +65,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "onFilterUpdate": "{{SetMood.run().then(() => {\n  SetUI.setColor();\n});}}",
+    "onOptionChange": "{{SetMood.run(MoodDropdownCopy.selectedOptionValue).then(() => {\n  SetUI.setColor();\n});}}",
     "minDynamicHeight": 4
 }

@@ -20,7 +20,7 @@
         {"key": "primaryColumns.user.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 32,
+    "leftColumn": 36,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
