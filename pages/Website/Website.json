@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -68,6 +68,16 @@
             }
           ],
           [
+            {
+              "id": "Website_MediaByGenre",
+              "name": "MediaByGenre",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "RecentGenre.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Website_MediaByUserMood",
               "name": "MediaByUserMood",
