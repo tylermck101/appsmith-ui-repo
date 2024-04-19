@@ -111,7 +111,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 77,
+    "originalBottomRow": 75,
     "useSourceData": false,
     "schema": {},
     "needsErrorInfo": false,
