@@ -26,12 +26,11 @@
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
-        {"key": "text"},
         {"key": "textColor"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.user.name}}",
+    "text": "About me",
     "key": "qciw5x2wqs",
     "isDeprecated": false,
     "rightColumn": 48,

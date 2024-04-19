@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Your journals",
     "key": "tqpotcaeex",
     "isDeprecated": false,
-    "rightColumn": 18,
+    "rightColumn": 19,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "2tq6qrzjvh",
