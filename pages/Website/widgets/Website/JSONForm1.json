@@ -216,7 +216,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 43,
+    "bottomRow": 6,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Journal Entry",

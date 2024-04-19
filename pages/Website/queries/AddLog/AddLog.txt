@@ -1,8 +1,8 @@
 {
 	"userID": {{appsmith.store.UserID}},
-	"favorite": {{ReviewForm.formData.Favorite}},
-	"review": {{ReviewForm.formData.Review}},
-	"rating: {{ReviewForm.formData.Rating}}
-	"title": {{ReviewForm.formData.Title}},
-	"mediaID": {{ReviewForm.formData.MediaID}}
+	"mediaID": {{ReviewForm.formData.mediaID}},
+	"favorite": {{ReviewForm.formData.favorite}},
+	"rating": {{ReviewForm.formData.rating}},
+	"review": {{ReviewForm.formData.review}}
+
 }
