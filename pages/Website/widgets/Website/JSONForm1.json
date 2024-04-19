@@ -113,7 +113,7 @@
         }
     },
     "disabledWhenInvalid": true,
-    "borderRadius": "1.5rem",
+    "borderRadius": "0px",
     "originalBottomRow": 43,
     "useSourceData": false,
     "schema": {"__root_schema__": {
@@ -226,7 +226,7 @@
     "sourceData": "",
     "resetButtonLabel": "Reset",
     "key": "q58efvb6rg",
-    "backgroundColor": "#dbeafe",
+    "backgroundColor": "#ffffff",
     "isDeprecated": false,
     "rightColumn": 42,
     "widgetId": "fgenoihmn9",
