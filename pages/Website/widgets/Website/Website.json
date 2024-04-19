@@ -333,7 +333,7 @@
     "tags": ["Layout"],
     "isLoading": false,
     "borderRadius": "0.375rem",
-    "originalBottomRow": 113,
+    "originalBottomRow": 84,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "Website",
