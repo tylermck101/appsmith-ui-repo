@@ -114,7 +114,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "0px",
-    "originalBottomRow": 43,
+    "originalBottomRow": 6,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -216,7 +216,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 6,
+    "bottomRow": 43,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Journal Entry",
