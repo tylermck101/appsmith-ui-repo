@@ -1,16 +1,12 @@
 {
   "pages": [
     {
-      "id": "Mood and Type Search",
+      "id": "Website",
+      "isDefault": false
+    },
+    {
+      "id": "Welcome",
       "isDefault": true
-    },
-    {
-      "id": "Rating and Genre Search",
-      "isDefault": false
-    },
-    {
-      "id": "Profile",
-      "isDefault": false
     }
   ],
   "viewMode": false,

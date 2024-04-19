@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "SetUI",
+    "pageId": "Welcome",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Welcome_SetUI",
+  "deleted": false,
+  "gitSyncId": "6621c3af60768f5be0939d0f_6621e56b60768f5be0939dc4"
+}
