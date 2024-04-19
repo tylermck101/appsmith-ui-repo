@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 6,
-    "widgetName": "Text2Copy",
+    "widgetName": "Text2Copy2",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -20,21 +20,22 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.3828125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Feeling _______? Check out some of these!",
+    "text": "Feeling {{UserMood}}? Check out some of these!",
     "key": "q38l7hk06e",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 45,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "o1ywet8a66",
+    "widgetId": "urdms3v2fi",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -49,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 2,
     "responsiveBehavior": "fill",
-    "originalTopRow": 1,
+    "originalTopRow": 23,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 6,
+    "originalBottomRow": 67,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
