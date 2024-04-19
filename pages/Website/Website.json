@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -33,7 +33,9 @@
               "name": "RecentGenre",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.UserID"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -41,7 +43,9 @@
               "name": "UserMood",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.UserID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
