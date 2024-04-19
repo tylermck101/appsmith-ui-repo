@@ -1,0 +1,6 @@
+{
+	"user": {{appsmith.store.UserID}},
+	"date": {{JSONForm1.formData.date}},
+	"title": {{JSONForm1.formData.title}},
+	"text": {{JSONForm1.formData.text}}
+}

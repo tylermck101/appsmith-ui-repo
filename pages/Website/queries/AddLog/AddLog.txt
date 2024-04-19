@@ -1,0 +1,8 @@
+{
+  "user": appsmith.store.UserID,
+  "journalID": 100,
+  "favorite": {{JSONForm1.formData.favorite}},
+  "log": {{JSONForm1.formData.review}},
+  "title": {{JSONForm1.formData.text}},
+	"mediaID": {{JSONForm1.formData.mediaID}}
+}

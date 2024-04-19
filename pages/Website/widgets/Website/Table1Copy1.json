@@ -80,7 +80,7 @@
     "textSize": "0.875rem",
     "widgetId": "ay04889i8r",
     "minWidth": 450,
-    "tableData": "{{View_All_Media.data}}",
+    "tableData": "{{ViewAllMedia.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "k7lxap57q0",
