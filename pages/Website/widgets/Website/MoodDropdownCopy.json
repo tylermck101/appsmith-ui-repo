@@ -65,6 +65,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "onFilterUpdate": "{{SetMood.run().then(() => {\n  SetUI.setColor();\n});}}",
-    "onOptionChange": "{{SetMood.run(MoodDropdownCopy.selectedOptionValue).then(() => {\n  SetUI.setColor();\n});}}",
+    "onOptionChange": "{{SetMood.run(MoodDropdownCopy.selectedOptionValue).then(() => {\n  UserMood.run();\n  SetUI.setColor();\n});}}",
     "minDynamicHeight": 4
 }

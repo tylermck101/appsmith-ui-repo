@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"mood\": {{MoodDropdownCopy.selectedOptionValue}};\n}",
+      "body": "{\n\t\"mood\": {{MoodDropdownCopy.selectedOptionValue}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
