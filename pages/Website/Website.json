@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 1390,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -28,6 +28,36 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Website_Goals",
+              "name": "Goals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "UserID.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Website_JournalEntry",
+              "name": "JournalEntry",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "journalID.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Website_Logs",
+              "name": "Logs",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "logID.data"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Website_RecentGenre",
               "name": "RecentGenre",
