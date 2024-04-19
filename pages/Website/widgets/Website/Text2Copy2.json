@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 47,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Feeling {{UserMood}}? Check out some of these!",
+    "text": "Feeling {{UserMood.data}}? Check out some of these!",
     "key": "q38l7hk06e",
     "isDeprecated": false,
     "rightColumn": 45,
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 47,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
