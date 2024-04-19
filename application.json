@@ -15,6 +15,10 @@
     {
       "id": "delete_log",
       "isDefault": false
+    },
+    {
+      "id": "Profile",
+      "isDefault": false
     }
   ],
   "viewMode": false,

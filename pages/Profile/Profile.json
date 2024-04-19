@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "delete_log",
-    "slug": "delete-log",
+    "name": "Profile",
+    "slug": "profile",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 490,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -28,18 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "delete_log__getlogCopy",
-              "name": "_getlogCopy",
+              "id": "Profile_user_goals",
+              "name": "user_goals",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.userID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Profile_user_journals",
+              "name": "user_journals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.userID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "delete_log",
+        "id": "Profile",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662167a583cdc11edec2cafd_66225bfce0d8072e6cab271c"
+  "gitSyncId": "66225d82e0d8072e6cab2722_66225eaae0d8072e6cab2734"
 }
