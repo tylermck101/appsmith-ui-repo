@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 21.5625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 33,
+    "leftColumn": 34,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "{{appsmith.user.name}}'s logs",
     "key": "qciw5x2wqs",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 50,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "zn8denzoje",
