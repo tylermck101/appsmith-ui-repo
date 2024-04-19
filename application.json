@@ -1,14 +1,24 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Journal Entry",
       "isDefault": true
+    },
+    {
+      "id": "Leave A Review ",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#EAEDFB",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
