@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 56,
-    "widgetName": "MediaTypeSubmitCopy",
+    "widgetName": "MediaTypeSubmit",
     "onClick": "{{SelectByMediaType.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",

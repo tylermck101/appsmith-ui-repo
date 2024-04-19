@@ -39,16 +39,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Website_SelectByMediaType",
-              "name": "SelectByMediaType",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "MediaTypeDropdown.selectedOptionLabel || Song"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Website_UserMood",
               "name": "UserMood",
               "confirmBeforeExecute": false,
@@ -67,6 +57,16 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "MoodDropdown.selectedOptionValue || 1 "
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Website_SelectByMediaType",
+              "name": "SelectByMediaType",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "MediaTypeDropdown.selectedOptionLabel || Song"
               ],
               "timeoutInMillisecond": 10000
             }

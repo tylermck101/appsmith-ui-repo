@@ -29,7 +29,7 @@
     "originalBottomRow": 94,
     "needsErrorInfo": false,
     "mobileBottomRow": 55,
-    "widgetName": "MediaTypeDropdownCopy",
+    "widgetName": "MediaTypeDropdown",
     "isFilterable": true,
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",

@@ -65,7 +65,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 67,
-    "widgetName": "MediaTypeTableCopy",
+    "widgetName": "MediaTypeTable",
     "defaultPageSize": 0,
     "columnOrder": [
         "genre",
@@ -87,7 +87,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "mood": {
-            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mood\"]))}}",
+            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mood\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "mood",
@@ -118,7 +118,7 @@
             "verticalAlignment": "CENTER"
         },
         "genre": {
-            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genre\"]))}}",
+            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genre\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "genre",
@@ -149,7 +149,7 @@
             "verticalAlignment": "CENTER"
         },
         "rating": {
-            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rating\"]))}}",
+            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rating\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rating",
@@ -180,7 +180,7 @@
             "verticalAlignment": "CENTER"
         },
         "mediaType": {
-            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaType\"]))}}",
+            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "mediaType",
@@ -211,7 +211,7 @@
             "verticalAlignment": "CENTER"
         },
         "mediaID": {
-            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaID\"]))}}",
+            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "mediaID",
@@ -242,7 +242,7 @@
             "verticalAlignment": "CENTER"
         },
         "title": {
-            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
+            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "title",
