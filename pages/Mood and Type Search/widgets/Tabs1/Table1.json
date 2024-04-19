@@ -11,7 +11,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 4,
@@ -61,7 +62,7 @@
     "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 53,
     "columnWidthMap": {},
@@ -69,6 +70,7 @@
     "hideCard": false,
     "mobileRightColumn": 39,
     "parentColumnSpace": 15.125,
+    "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {},
     "key": "sea103eqr9",
@@ -77,8 +79,9 @@
     "rightColumn": 29,
     "textSize": "0.875rem",
     "widgetId": "9rr859l4f9",
+    "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "",
+    "tableData": "{{JSONForm1Copy.formData}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "7t10fqtd26",

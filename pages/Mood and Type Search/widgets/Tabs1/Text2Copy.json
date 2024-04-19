@@ -24,11 +24,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Feeling _______? Check out some of these!",
+    "text": "Feeling {{SubmitMood.text}}? Check out some of these!",
     "key": "q38l7hk06e",
     "isDeprecated": false,
     "rightColumn": 44,
