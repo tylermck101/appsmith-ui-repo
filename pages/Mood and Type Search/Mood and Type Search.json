@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 830,
+          "bottomRow": 430,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,22 +29,24 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Mood and Type Search_MediaByMood",
-              "name": "MediaByMood",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "MoodDropdown.selectedOptionValue || 1 "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Mood and Type Search_SelectByMediaType",
               "name": "SelectByMediaType",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "MediaTypeDropdown.selectedOptionLabel || Song"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Mood and Type Search_MediaByMood",
+              "name": "MediaByMood",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "MoodDropdown.selectedOptionValue || 1 "
               ],
               "timeoutInMillisecond": 10000
             }

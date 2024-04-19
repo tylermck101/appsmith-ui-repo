@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 55,
+    "topRow": 4,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -61,10 +61,11 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713475312283,
+    "originalBottomRow": 108,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 67,
-    "widgetName": "MediaTypeTable",
+    "widgetName": "MediaTypeTableCopy",
     "defaultPageSize": 0,
     "columnOrder": [
         "genre",
@@ -76,17 +77,17 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 83,
+    "bottomRow": 32,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 60,
-    "parentColumnSpace": 12.859375,
+    "parentColumnSpace": 4.306640625,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "mood": {
-            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mood\"]))}}",
+            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mood\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "mood",
@@ -117,7 +118,7 @@
             "verticalAlignment": "CENTER"
         },
         "genre": {
-            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genre\"]))}}",
+            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genre\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "genre",
@@ -148,7 +149,7 @@
             "verticalAlignment": "CENTER"
         },
         "rating": {
-            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rating\"]))}}",
+            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rating\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rating",
@@ -179,7 +180,7 @@
             "verticalAlignment": "CENTER"
         },
         "mediaType": {
-            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaType\"]))}}",
+            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "mediaType",
@@ -210,7 +211,7 @@
             "verticalAlignment": "CENTER"
         },
         "mediaID": {
-            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaID\"]))}}",
+            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mediaID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "mediaID",
@@ -241,7 +242,7 @@
             "verticalAlignment": "CENTER"
         },
         "title": {
-            "computedValue": "{{MediaTypeTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
+            "computedValue": "{{MediaTypeTableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "title",
@@ -275,20 +276,21 @@
     "key": "pt6zriqjlj",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "slvpehijoj",
+    "widgetId": "dmpaydp09k",
     "minWidth": 450,
     "tableData": "{{SelectByMediaType.data}}",
     "label": "Data",
     "searchKey": "",
-    "parentId": "0",
+    "parentId": "2az96ndvjp",
     "renderMode": "CANVAS",
     "mobileTopRow": 39,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 80,
     "mobileLeftColumn": 26,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
