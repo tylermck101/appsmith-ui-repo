@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 5,
+    "bottomRow": 21,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -24,11 +24,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Feeling _______? Check out some of these!",
+    "text": "Feeling {{UserMood}}? Check out some of these!",
     "key": "q38l7hk06e",
     "isDeprecated": false,
     "rightColumn": 44,
@@ -53,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 6,
+    "originalBottomRow": 5,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

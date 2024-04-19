@@ -24,11 +24,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Based on your recent media consumption, you really like _________! We recommend that you check out the following:",
+    "text": "Based on your recent media consumption, you really like {{RecentGenre.data}}! We recommend that you check out the following:",
     "key": "q38l7hk06e",
     "isDeprecated": false,
     "rightColumn": 44,
