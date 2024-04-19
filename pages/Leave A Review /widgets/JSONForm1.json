@@ -2,6 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "onSubmit": "{{Add_log.data}}",
     "topRow": 15,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -125,7 +126,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 64,
+    "originalBottomRow": 71,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -268,6 +269,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
+    "dynamicPropertyPathList": [{"key": "onSubmit"}],
     "displayName": "JSON Form",
     "bottomRow": 71,
     "fieldLimitExceeded": false,
@@ -276,7 +278,7 @@
     "hideCard": false,
     "mobileRightColumn": 50,
     "parentColumnSpace": 11.890625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
