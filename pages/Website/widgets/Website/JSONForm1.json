@@ -2,7 +2,7 @@
     "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "borderColor": "#3b82f6",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{SaveNewJournal.run({\n //\"title\": \"value\",\n});}}",
+    "onSubmit": "{{SaveNewJournal.run({\n  // \"title\": \"value\",\n});\nUserJournals.run()}}",
     "topRow": 2,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -114,7 +114,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "0px",
-    "originalBottomRow": 6,
+    "originalBottomRow": 43,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",

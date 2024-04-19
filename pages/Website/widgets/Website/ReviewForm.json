@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{AddLog.run()}}",
+    "onSubmit": "{{AddLog.run().then(() => {\n  GetLog.run();\n});}}",
     "topRow": 3,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

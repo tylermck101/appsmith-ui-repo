@@ -1,7 +1,0 @@
-{
-  "userID": {{appsmith.store.UserID}},
-  "favorite": {{EditLogForm.formData.favorite}},
-  "review": {{EditLogForm.formData.review}},
-  "rating": {{EditLogForm.formData.rating}},
-	"mediaID": {{EditLogForm.formData.mediaID}}
-}
