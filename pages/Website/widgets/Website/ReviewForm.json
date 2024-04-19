@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "",
+    "onSubmit": "{{AddLog.run()}}",
     "topRow": 6,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -32,7 +32,7 @@
     "showReset": true,
     "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
-    "autoGenerateForm": true,
+    "autoGenerateForm": false,
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -157,7 +157,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 4,
+                "position": 1,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -172,13 +172,13 @@
                 "dataType": "string",
                 "accessor": "log",
                 "isVisible": true,
-                "label": "Review:",
+                "label": "Review",
                 "originalIdentifier": "customField1",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 0,
+                "position": 2,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -204,7 +204,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "placeholderText": "",
-                "position": 1,
+                "position": 3,
                 "isDisabled": false,
                 "sourceData": 0,
                 "fieldType": "Number Input"
@@ -226,7 +226,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 2,
+                "position": 0,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -249,7 +249,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"yes\",\n    \"value\": \"true\"\n  },\n  {\n    \"label\": \"no\",\n    \"value\": \"false\"\n  }\n]",
-                "position": 3,
+                "position": 4,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -262,7 +262,7 @@
     }},
     "needsErrorInfo": false,
     "mobileBottomRow": 58,
-    "widgetName": "JSONForm1Copy",
+    "widgetName": "ReviewForm",
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
