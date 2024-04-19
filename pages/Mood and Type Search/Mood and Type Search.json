@@ -34,7 +34,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "MoodDropdown.selectedOptionValue"
+                "MoodDropdown.selectedOptionValue || 1 "
               ],
               "timeoutInMillisecond": 10000
             },
@@ -44,7 +44,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "MediaTypeDropdown.selectedOptionLabel"
+                "MediaTypeDropdown.selectedOptionLabel || Song"
               ],
               "timeoutInMillisecond": 10000
             }
